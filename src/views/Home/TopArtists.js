@@ -54,7 +54,7 @@ export default class TopArtists extends Component {
 		
 		return(
 
-				<div className="panel panel-default">
+				<div className="panel panel-success">
 					<div className="panel-heading">
 						Estos son los ultimos ganadores
 					</div>

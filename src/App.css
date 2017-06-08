@@ -1,3 +1,38 @@
+
+.landingbg{
+background-color: #459245;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+}
+.landingbg-nav{
+
+  
+   position: absolute;
+    top: 0;
+    left: 0;
+ z-index: -100;
+
+}
+.sidenav ul{
+list-style-type: none;
+}
+.sidenav a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s
+}
+.sidenav{
+  padding-left:2px;
+  height: 100%; 
+}
 .btn-nav-top{
 
  margin-top: 21px  !important;  
@@ -34,6 +69,7 @@
 }
 .navBackground{
   background-color:#009245 !important;
+  background-image: url('./Images/network.svg');
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
