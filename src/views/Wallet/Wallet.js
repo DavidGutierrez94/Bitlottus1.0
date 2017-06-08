@@ -14,7 +14,7 @@ export default class Wallet extends Component {
     render() {
         return (
             <div>
-                <NavBar />
+               
 
                 <div className="row page-titles ">
                     <h3 className="">Deposit</h3>

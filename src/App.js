@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       
+       <NavBar/>
       <HashRouter>
           <div>
               <Route exact path="/" component={Landing}/>

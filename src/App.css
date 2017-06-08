@@ -1,4 +1,40 @@
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.logo-panel{
+padding:100px; 
+}
 
+
+.text-vertical-center h1 {
+  padding-top:200px; 
+  color: white;
+    font-size: 6em;
+    font-weight: 700;
+
+}
+.text-vertical-center h3 {
+  padding:0px; 
+  color: white;
+
+    font-weight: 500;
+}
+
+
+.landing-div{
+margin-top: -22px;
+height: 600px;
+
+}
+
+.bit-img{
+  
+    background-image: url('./Images/bitcoingb.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .landingbg{
 background-color: #459245;
 

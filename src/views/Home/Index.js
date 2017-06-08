@@ -13,7 +13,7 @@ export default class Home extends Component {
 		let backgnd = <img src={require('./../../../src/Images/network.svg')}/>
 		return(
 			<div>
-			<NavBar/>
+			
 			<div className="container">
 			
 			<div className="jumbotron jumbotron-fluid ">
