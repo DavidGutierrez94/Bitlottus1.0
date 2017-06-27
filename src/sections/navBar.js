@@ -7,6 +7,7 @@ export default class navBar extends Component {
 
 	render() {
 		let backgnd = <img src={require('./../../src/Images/network.svg')} />
+		let men = <img className='gap' src={require('./../../src/Images/man.svg')} width='60'/>
 		return (
 
 			<nav className="navbar navbar-default navBackground" >
@@ -28,8 +29,9 @@ export default class navBar extends Component {
 						</ul>
 						<ul className="nav navbar-nav navbar-right">
 							<li><button className="navbar-btn btn btn-success  btn-nav-top">Recargar</button></li>
-							<li><a href="#" className="blanco"><FontAwesome className='blanco' name='user' size='lg' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }} /> <span>Username <br />
-								<FontAwesome className='blanco' name='btc' size='lg' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }} />1.00</span></a></li>
+							<li ><a href="#" >{men} </a></li>
+							<li ><a className="blanco"><span>User name<br/>
+								<FontAwesome className='blanco' name='btc' size='lg' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }} /> 1.00</span></a></li>
 							<li className="">
 								<button href="#" type="button" className="navbar-btn btn btn-success transparent" data-toggle="modal" data-target="#myModal">
 									<FontAwesome className='blanco' name='bars' size='2x' style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }} />

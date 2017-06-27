@@ -19,7 +19,11 @@ padding:100px;
 
     font-weight: 500;
 }
+.gap{
 
+  margin-top: -9px;
+  margin-right: -10px;
+}
 
 .landing-div{
 margin-top: -22px;

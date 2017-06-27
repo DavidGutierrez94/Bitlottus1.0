@@ -43,7 +43,7 @@ export default class Wallet extends Component {
                         <div className="col-lg-8 col-xlg-9 col-md-7">
                             <div className="panel">
                                 <div className="card-block">
-                                    <select className="custom-select pull-right">
+                                    <select className=" dropdown custom-select pull-right">
                                         <option selected>January</option>
                                         <option value="1">February</option>
                                         <option value="2">March</option>
